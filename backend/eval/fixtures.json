@@ -1,0 +1,11 @@
+{
+  "documents": [
+    {"filename": "vacation-policy.txt", "text": "휴가 정책: 정규직 직원은 연간 유급휴가 15일을 사용할 수 있다. 휴가 신청은 시작일 7일 전까지 제출한다."},
+    {"filename": "expense-policy.md", "text": "# 경비 정책\n출장 숙박비는 1박당 150000원까지 정산할 수 있다. 영수증을 제출해야 한다."}
+  ],
+  "questions": [
+    {"question": "휴가 신청은 언제까지 제출해야 하나요?", "expected_filename": "vacation-policy.txt", "expected_supported": true},
+    {"question": "출장 숙박비 한도는 얼마인가요?", "expected_filename": "expense-policy.md", "expected_supported": true},
+    {"question": "재택근무 수당은 월 얼마인가요?", "expected_filename": null, "expected_supported": false}
+  ]
+}
